@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: davina-david-wedding
+    runtime: node
+    plan: starter            # $7/mo; needed for a persistent disk (free plan sleeps and loses data)
+    buildCommand: npm install --omit=dev
+    startCommand: node server.js
+    envVars:
+      - key: ADMIN_PASSWORD
+        generateValue: true
+      - key: DATA_DIR
+        value: /var/data
+      - key: SPOTIFY_CLIENT_ID
+        sync: false
+      - key: SPOTIFY_CLIENT_SECRET
+        sync: false
+    disk:
+      name: wedding-data
+      mountPath: /var/data
+      sizeGB: 1

@@ -1,0 +1,15 @@
+{
+  "_howToEdit": "Edit question text, options, and set 'answer' to the index of the correct option (0 = first). Add or remove questions freely.",
+  "questions": [
+    { "q": "Where did Dave and Davina first meet?", "options": ["At a party", "At school", "Through friends", "Online"], "answer": 2 },
+    { "q": "Who said \"I love you\" first?", "options": ["Dave", "Davina"], "answer": 0 },
+    { "q": "Where was their first date?", "options": ["A restaurant", "The movies", "A walk by the water", "A coffee shop"], "answer": 0 },
+    { "q": "Who is the better cook?", "options": ["Dave", "Davina", "It's a tie", "Neither — takeout wins"], "answer": 1 },
+    { "q": "Who takes longer to get ready?", "options": ["Dave", "Davina"], "answer": 1 },
+    { "q": "Where did Dave propose?", "options": ["At a lighthouse", "At home", "On vacation", "At a restaurant"], "answer": 0 },
+    { "q": "What's their favourite song to dance to together?", "options": ["A rumba classic", "An Amapiano hit", "An Afrobeats jam", "A slow R&B song"], "answer": 1 },
+    { "q": "Who is more likely to be late?", "options": ["Dave", "Davina"], "answer": 0 },
+    { "q": "What's their dream honeymoon destination?", "options": ["Cape Town", "Bali", "Greece", "Zanzibar"], "answer": 3 },
+    { "q": "How long have they been together?", "options": ["1–2 years", "3–4 years", "5–6 years", "7+ years"], "answer": 1 }
+  ]
+}

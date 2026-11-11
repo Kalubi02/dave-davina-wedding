@@ -1,0 +1,22 @@
+{
+  "name": "davina-david-wedding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.22.3"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.65.0"
+  },
+  "engines": {
+    "node": ">=22.9"
+  }
+}
