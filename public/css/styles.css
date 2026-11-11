@@ -100,6 +100,18 @@ h1,h2,h3,h4{font-family:var(--serif);font-weight:400;margin:0;line-height:1.1}
 .info h4{font-size:1.5rem;margin-bottom:.4rem}
 .info p{margin:0}
 
+/* WHERE TO STAY */
+.stay{max-width:1100px;margin:3rem auto 0;padding:2.4rem 2rem 2rem;background:#fff;border:1px solid #ece7dc;border-radius:var(--radius);text-align:left}
+.stay h4{font-size:1.8rem;text-align:center;margin-bottom:.6rem}
+.stay-intro{text-align:center;max-width:42rem;margin:0 auto 1.4rem;line-height:1.55}
+.stay-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.stay-list li{padding:1.15rem 0;border-top:1px solid #ece7dc}
+.stay-list li:first-child{border-top:0;padding-top:.2rem}
+.stay-name{display:inline;font-family:var(--serif);font-size:1.35rem;color:var(--sage-deep);text-decoration:none;border-bottom:1px solid var(--sage);line-height:1.2}
+.stay-name:hover{color:var(--sage-deep);border-bottom-color:var(--sage-deep)}
+.stay-meta{display:block;margin-top:.35rem;font-size:.9rem;color:var(--ink-soft)}
+.stay-note{display:block;font-size:.85rem;color:var(--muted)}
+
 /* RSVP */
 .rsvp{background:linear-gradient(180deg,#fff, var(--peach-mist))}
 .split{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(2rem,5vw,5rem);max-width:1150px;margin:0 auto;align-items:start}
